@@ -24,58 +24,58 @@
     >Handsign: Clone<br/>
     >User: Naruto, Kakashi
     * Chidori
-    >Handsign: Ox → Rabbit → Monkey
+    >Handsign: Ox → Rabbit → Monkey<br/>
     >User: Sasuke
     * Katon: Goukakyuu no Jutsu (Fire Style: Fireball Jutsu)
-    >Handsign: Snake → Ram → Monkey → Boar → Horse → Tiger
+    >Handsign: Snake → Ram → Monkey → Boar → Horse → Tiger<br/>
     >User: Sasuke, Itachi, Obito
     * Raikiri
-    >Handsign: Ox → Rabbit → Monkey
+    >Handsign: Ox → Rabbit → Monkey<br/>
     >User: Kakashi
     * Doton: Doryuuheki (Earth Style: Mud Wall)
-    >Handsign: Tiger → Hare → Boar → Dog
+    >Handsign: Tiger → Hare → Boar → Dog<br/>
     >User: Kakashi, Hiruzen
     * Tsukuyomi (Itachi)
-    >Handsign: -
+    >Handsign: -<br/>
     >User: Itachi
     * Susanoo
-    >Handsign: -
+    >Handsign: -<br/>
     >User: Itachi, Sasuke, Madara, Kakashi
     * Katon: Bakufuu Ranbu (Fire Style: Bomb Blast Dance)
-    >Handsign: Tiger
+    >Handsign: Tiger<br/>
     >User: Obito
     * Kamui
-    >Handsign: -
+    >Handsign: -<br/>
     >User: Obito, Kakashi
     * Katon: Gouka Mekkyaku (Fire Style: Great Fire Annihilation)
-    >Handsign: Horse
+    >Handsign: Horse<br/>
     >User: Madara
     * Tengai Shinsei (Shattered Heaven)
-    >Handsign: Ram + Snake + Bird
+    >Handsign: Ram + Snake + Bird<br/>
     >User: Madara
     * Mokuton: Mokujin no Jutsu (Wood Style: Wood Golem Jutsu)
-    >Handsign: Ox → Horse → Boar → Snake
+    >Handsign: Ox → Horse → Boar → Snake<br/>
     >User: Hashirama
     * Senpou Mokuton: Shin Suusenju (Sage Art: Wood Style: True Thousand Hands)
-    >Handsign: -
+    >Handsign: -<br/>
     >User: Hashirama
     * Hiraishin Giri (Flying Raijin Slash)
-    >Handsign: -
+    >Handsign: -<br/>
     >User: Tobirama
     * Suiton: Suiryuudan no Jutsu (Water Style: Water Dragon Jutsu)
-    >Handsign: Rat → Hare → Tiger
+    >Handsign: Rat → Hare → Tiger<br/>
     >User: Tobirama
     * Katon: Karyuu Endan (Fire Style: Dragon Flame Bomb)
-    >Handsign: Ram → Horse → Snake → Dragon → Rat → Ox → Tiger
+    >Handsign: Ram → Horse → Snake → Dragon → Rat → Ox → Tiger<br/>
     >User: Hiruzen
     * Kuchiyose no Jutsu (Summoning Jutsu)
-    >Handsign: Boar → Dog → Bird → Monkey → Ram
+    >Handsign: Boar → Dog → Bird → Monkey → Ram<br/>
     >User: Hiruzen, Naruto, Sasuke, Kakashi
     * Hiraishin no Jutsu (Flying Raijin Jutsu)
-    >Handsign: -
+    >Handsign: -<br/>
     >User: Minato, Tobirama
     * Shiki Fuujin (Sealing Jutsu: Reaper Death Seal)
-    >Handsign: Snake → Boar → Ram → Rabbit → Dog → Rat → Bird → Horse → Snake → Clap Hands
+    >Handsign: Snake → Boar → Ram → Rabbit → Dog → Rat → Bird → Horse → Snake → Clap Hands<br/>
     >User: Minato, Hiruzen
 
     Total: 20
