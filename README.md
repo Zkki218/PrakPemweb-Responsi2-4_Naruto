@@ -50,9 +50,9 @@
     * Katon: Gouka Mekkyaku (Fire Style: Great Fire Annihilation)
     >Handsign: Horse
     >User: Madara
-    * Isou: Susanoo (Majestic Attire: Susanoo)
-    >Handsign: -
-    >User: Madara, Sasuke
+    * Tengai Shinsei (Shattered Heaven)
+    >Handsign: Ram + Snake + Bird
+    >User: Madara
     * Mokuton: Mokujin no Jutsu (Wood Style: Wood Golem Jutsu)
     >Handsign: Ox → Horse → Boar → Snake
     >User: Hashirama
@@ -97,3 +97,8 @@
     * Clap Hands
 
     Total: 14
+
+## Images
+    * Face_images -> for chara list pages
+    * Full_images -> for chara description and index pages
+    * Cover_images -> for jutsu list and description pages
