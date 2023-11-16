@@ -13,45 +13,70 @@
     * Senju Tobirama
     * Sarutobi Hiruzen
     * Namikaze Minato
+
+    Total: 10
+
 2. Jutsu:
-    * Rasengan (Naruto)
+    * Rasengan
     >Handsign: -
-    * Tajuu Kage Bunshin no Jutsu (Multi Shadow Clone Jutsu) (Naruto)
+    >User: Naruto, Minato
+    * Tajuu Kage Bunshin no Jutsu (Multi Shadow Clone Jutsu)
     >Handsign: Clone
-    * Chidori (Sasuke)
+    >User: Naruto, Kakashi
+    * Chidori
     >Handsign: Ox → Rabbit → Monkey
-    * Katon: Goukakyuu no Jutsu (Fire Style: Fireball Jutsu) (Sasuke)
+    >User: Sasuke
+    * Katon: Goukakyuu no Jutsu (Fire Style: Fireball Jutsu)
     >Handsign: Snake → Ram → Monkey → Boar → Horse → Tiger
-    * Raikiri (Kakashi)
+    >User: Sasuke, Itachi, Obito
+    * Raikiri
     >Handsign: Ox → Rabbit → Monkey
-    * Doton: Doryuuheki (Earth Style: Mud Wall) (Kakashi)
+    >User: Kakashi
+    * Doton: Doryuuheki (Earth Style: Mud Wall)
     >Handsign: Tiger → Hare → Boar → Dog
+    >User: Kakashi, Hiruzen
     * Tsukuyomi (Itachi)
     >Handsign: -
-    * Susanoo (Itachi)
+    >User: Itachi
+    * Susanoo
     >Handsign: -
-    * Katon: Bakufuu Ranbu (Fire Style: Bomb Blast Dance) (Obito)
+    >User: Itachi, Sasuke, Madara, Kakashi
+    * Katon: Bakufuu Ranbu (Fire Style: Bomb Blast Dance)
     >Handsign: Tiger
-    * Kamui (Obito)
+    >User: Obito
+    * Kamui
     >Handsign: -
-    * Katon: Gouka Mekkyaku (Fire Style: Great Fire Annihilation) (Madara)
+    >User: Obito, Kakashi
+    * Katon: Gouka Mekkyaku (Fire Style: Great Fire Annihilation)
     >Handsign: Horse
-    * Isou: Susanoo (Majestic Attire: Susanoo) (Madara)
+    >User: Madara
+    * Isou: Susanoo (Majestic Attire: Susanoo)
     >Handsign: -
-    * Mokuton: Mokujin no Jutsu (Wood Style: Wood Golem Jutsu) (Hashirama)
+    >User: Madara, Sasuke
+    * Mokuton: Mokujin no Jutsu (Wood Style: Wood Golem Jutsu)
     >Handsign: Ox → Horse → Boar → Snake
-    * Senpou Mokuton: Shin Suusenju (Sage Art: Wood Style: True Thousand Hands) (Hashirama)
+    >User: Hashirama
+    * Senpou Mokuton: Shin Suusenju (Sage Art: Wood Style: True Thousand Hands)
     >Handsign: -
-    * Kage Bunshin no Jutsu (Shadow Clone Jutsu) (Tobirama)
-    >Handsign: Clone
-    * Suiton: Suiryuudan no Jutsu (Water Style: Water Dragon Jutsu) (Tobirama)
+    >User: Hashirama
+    * Hiraishin Giri (Flying Raijin Slash)
+    >Handsign: -
+    >User: Tobirama
+    * Suiton: Suiryuudan no Jutsu (Water Style: Water Dragon Jutsu)
     >Handsign: Rat → Hare → Tiger
-    * Kuchiyose no Jutsu (Summoning Jutsu) (Hiruzen)
+    >User: Tobirama
+    * Kuchiyose no Jutsu (Summoning Jutsu)
     >Handsign: Boar → Dog → Bird → Monkey → Ram
-    * Hiraishin no Jutsu (Flying Raijin Jutsu) (Minato)
+    >User: Hiruzen, Naruto, Sasuke, Kakashi
+    * Hiraishin no Jutsu (Flying Raijin Jutsu)
     >Handsign: -
-    * Shiki Fuujin (Sealing Jutsu: Reaper Death Seal) (Minato)
+    >User: Minato, Tobirama
+    * Shiki Fuujin (Sealing Jutsu: Reaper Death Seal)
     >Handsign: Snake → Boar → Ram → Rabbit → Dog → Rat → Bird → Horse → Snake → Clap Hands
+    >User: Minato, Hiruzen
+
+    Total: 20
+
 3. Handsigns
     * Rat
     * Ox
@@ -67,3 +92,5 @@
     * Boar
     * Clone
     * Clap Hands
+
+    Total: 14
