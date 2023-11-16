@@ -19,7 +19,7 @@
 2. Jutsu:
     * Rasengan
     >Handsign: -
-    >User: Naruto, Minato
+    User: Naruto, Minato
     * Tajuu Kage Bunshin no Jutsu (Multi Shadow Clone Jutsu)
     >Handsign: Clone
     >User: Naruto, Kakashi
