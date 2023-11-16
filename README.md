@@ -65,6 +65,9 @@
     * Suiton: Suiryuudan no Jutsu (Water Style: Water Dragon Jutsu)
     >Handsign: Rat → Hare → Tiger
     >User: Tobirama
+    * Katon: Karyuu Endan (Fire Style: Dragon Flame Bomb)
+    >Handsign: Ram → Horse → Snake → Dragon → Rat → Ox → Tiger
+    >User: Hiruzen
     * Kuchiyose no Jutsu (Summoning Jutsu)
     >Handsign: Boar → Dog → Bird → Monkey → Ram
     >User: Hiruzen, Naruto, Sasuke, Kakashi
