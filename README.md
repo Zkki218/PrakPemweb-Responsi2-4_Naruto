@@ -99,6 +99,7 @@
     Total: 14
 
 ## Images
-    * Face_images -> for chara list pages
-    * Full_images -> for chara description and index pages
-    * Cover_images -> for jutsu list and description pages
+    * Character's Face_images -> for chara list pages
+    * Character's Full_images -> for chara description and index pages
+    * Character's Profile_images -> for user profile pages
+    * Jutsu's Cover_images -> for jutsu list and description pages
