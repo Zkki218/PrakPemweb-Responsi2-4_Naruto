@@ -1,3 +1,31 @@
+<?php
+include "koneksi.php";
+session_start();
+
+if (isset($_POST['submit-register'])) {
+    $username = mysqli_real_escape_string($koneksi, $_POST['username']);
+    $password = mysqli_real_escape_string($koneksi, $_POST['password']);
+    $character = mysqli_real_escape_string($koneksi, $_POST['pilih']);
+
+    if (empty($username) || empty($password) || empty($character) || $character == 'default') {
+        echo '<p>Semua kolom harus diisi dan karakter harus dipilih.</p>';
+    } else {
+        $check_username = mysqli_query($koneksi, "SELECT * FROM user WHERE username = '$username'");
+        if (mysqli_num_rows($check_username) > 0) {
+            echo '<p>Username sudah digunakan. Silakan pilih yang lain.</p>';
+        } else {
+            $insert_user = mysqli_query($koneksi, "INSERT INTO user (username, password, level, character) VALUES ('$username', '$password', 'Pengunjung', '$character')");
+
+            if ($insert_user) {
+                echo '<p>Register berhasil.</p>';
+            } else {
+                echo '<p>Terjadi kesalahan selama Register. Silakan coba lagi!</p>';
+            }
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
