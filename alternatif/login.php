@@ -1,3 +1,8 @@
+<?php
+include "koneksi.php";
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +15,49 @@
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
+
+    <?php if (isset($_SESSION['login']) && isset($_SESSION['user'])) : ?>
+		<script>window.location='link hosting website'</script>
+	<?php endif ?> 
+
+	<?php 
+		if (isset($_POST['login'])) {
+			$username = $_POST['username'];
+			$password = $_POST['password'];
+
+			$data = mysqli_query($koneksi,"SELECT * FROM user WHERE username = '$username'");
+
+			if (mysqli_num_rows($data) > 0) {
+				$hasil = mysqli_fetch_assoc($data);
+
+				if($hasil['level']=="Admin"){
+					$_SESSION['username'] = $username;
+					$_SESSION['level'] = "Admin";
+				  
+				   }else if($hasil['level']=="Pengunjung"){
+					$_SESSION['username'] = $username;
+					$_SESSION['level'] = "Pengunjung";
+				   }
+
+					if ($hasil['password']) {
+						$_SESSION['user'] = $username;
+						$_SESSION['login'] = true; ?>
+						<script>window.location="link hosting website";</script>
+						
+				<?php 
+				}else { ?>
+					<a href='login.php'></a>
+					<p>Password Salah!</p>
+				<?php 
+				}
+			}else { ?>
+					<a href='login.php')></a>
+					<p>Username & password salah!</p>
+			<?php 
+			}
+		}
+	?>
+    
     <div class="main-container">
         <div class="img-container">
             <h1>Welcome Back!</h1>
