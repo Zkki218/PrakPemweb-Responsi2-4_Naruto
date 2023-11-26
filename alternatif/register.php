@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <title>register</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600%2C700"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
-  <link rel="stylesheet" href="./styles/register.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="styles/register.css">
 </head>
 <body>
-  <div class="register-fR3">
-    <div class="auto-group-whgm-bpV">
-      <div class="group-6-iPK">
-        <p class="register-fJZ">Register</p>
-        <p class="please-enter-your-username-password-and-choose-your-character-Mx5">
-          please enter your username, password 
-          <br/>
-          and choose your character
-        </p>
-        <div class="auto-group-fwzu-SyX">Username</div>
-        <div class="auto-group-vgz5-Vgu">Password</div>
-      </div>
-      <div class="group-7-x4h">
-        <p class="select-character-fUu">
-          Select 
-          <br/>
-          Character
-        </p>
-        <div class="auto-group-mkpt-aLy">
-          <p class="naruto-761">Naruto</p>
-          <div class="line-1-RMb"></div>
-          <img class="polygon-1-jt5" src="./assets/polygon-1.png" alt="Polygon"/>
+    <div class="main-container">
+        <div class="content-container">
+            <h1>Register</h1>
+            <p>Please enter your username and password!</p>
+            <form method="post" name="form-register">
+                <input class="input" type="text" name="username" placeholder="Username" required><br><br>
+                <input class="input" type="password" name="password" placeholder="Password" required><br><br>
+                <div class="select-area">
+                    <label for="pilih">Select<br>Character</label>
+                    <div class="custom-select">
+                        <select name="pilih">
+                            <option value="default" selected>------------</option>
+                            <option value="naruto">Naruto</option>
+                            <option value="sasuke">Sasuke</option>
+                            <option value="kakashi">Kakashi</option>
+                            <option value="itachi">Itachi</option>
+                            <option value="obito">Obito</option>
+                            <option value="madara">Madara</option>
+                            <option value="hashirama">Hashirama</option>
+                            <option value="tobirama">Tobirama</option>
+                            <option value="hiruzen">Hiruzen</option>
+                            <option value="minato">Minato</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <button class="button-submit" type="submit" name="submit-register"><p class="text-wrapper">Register</p></button>
+            </form>
+            <a href="login.php"><p>Already have an account?</p></a>
         </div>
-      </div>
-      <div class="auto-group-5e1o-FLd">
-        <div class="group-3-AiV">Register</div>
-        <p class="already-have-an-account-rLR">
-          already have an 
-          <br/>
-          account?
-        </p>
-      </div>
+        <div class="img-container">
+            <h1>Welcome!</h1>
+            <img src="assets/register.png">
+        </div>
     </div>
-    <div class="frame-1-LWV">
-      <p class="welcome-qy3">Welcome!</p>
-      <img class="minato-1-xGy" src="./assets/minato-1.png" alt="Minato"/>
-    </div>
-  </div>
 </body>
 </html>

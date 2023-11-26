@@ -1,250 +1,153 @@
-html {
-	font-size: 62.5%;
-}
-* {
-	margin: 0;
-	padding: 0;
-}
-ul, li {
-	list-style: none;
-}
-input {
-	border: none;
-}
-body {
-  width: 136.6rem;
-}
-.register-fR3 {
+html, body {
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  background-color: #ffffff;
+  height: 100%;
+  margin: 0;
 }
 
-.register-fR3 .auto-group-whgm-bpV {
-  box-sizing: border-box;
-  padding: 2.6rem 15.5rem 7.8rem 20.6rem;
-  width: 83.1rem;
-  height: 76.6rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../assets/backgroundnaruto-3-bg.png');
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-6-iPK {
-  margin-bottom: 5.1rem;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  border-radius: 1rem;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-6-iPK .register-fJZ {
-  margin: 0rem 0.1rem 2.1rem 0rem;
-  text-align: center;
-  font-size: 6rem;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.6rem;
-  color: #000000;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-6-iPK .please-enter-your-username-password-and-choose-your-character-Mx5 {
-  margin-bottom: 4.7rem;
-  max-width: 47rem;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.2rem;
-  color: #000000;
-  font-family: Poppins, 'Source Sans Pro';
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-6-iPK .auto-group-fwzu-SyX {
-  margin: 0rem 0rem 4.7rem 1.4rem;
-  box-sizing: border-box;
-  padding: 2.7rem 1.9rem 2.8rem 1.9rem;
-  width: 45.4rem;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.2rem;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  background-color: #000000;
-  border-radius: 1rem;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-6-iPK .auto-group-vgz5-Vgu {
-  margin-left: 1.4rem;
-  box-sizing: border-box;
-  padding: 2.7rem 2.2rem 2.8rem 2.2rem;
-  width: 45.4rem;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.2rem;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  background-color: #000000;
-  border-radius: 1rem;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-7-x4h {
-  margin: 0rem 0.1rem 3.1rem 1.8rem;
-  width: calc(100% - 1.9rem);
-  height: 8.4rem;
-  display: flex;
-  align-items: center;
-  border-radius: 1rem;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-7-x4h .select-character-fUu {
-  margin: 0rem 2.4rem 0.1rem 0rem;
-  max-width: 12.8rem;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #000000;
-  font-family: Poppins, 'Source Sans Pro';
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-7-x4h .auto-group-mkpt-aLy {
-  box-sizing: border-box;
-  padding: 0.6rem 1.6rem 0.6rem 4.1rem;
+.main-container {
+  width: auto;
   height: 100%;
   display: flex;
-  align-items: center;
-  background-color: #000000;
-  border-radius: 1rem;
-  flex-shrink: 0;
 }
 
-.register-fR3 .auto-group-whgm-bpV .group-7-x4h .auto-group-mkpt-aLy .naruto-761 {
-  margin-right: 10.1rem;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.2rem;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-7-x4h .auto-group-mkpt-aLy .line-1-RMb {
-  margin: 0rem 1.3rem 7.1rem 0rem;
-  width: 0.1rem;
-  height: 0.1rem;
-  background-color: #ffffff;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .group-7-x4h .auto-group-mkpt-aLy .polygon-1-jt5 {
-  margin-bottom: 0.9rem;
-  width: 4.7rem;
-  height: 4.1rem;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .auto-group-5e1o-FLd {
-  margin: 0rem 4.8rem 0rem 1.8rem;
-  width: calc(100% - 6.6rem);
-  height: 6.1rem;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .auto-group-5e1o-FLd .group-3-AiV {
-  margin-right: 4.9rem;
-  width: 15.2rem;
+.img-container {
+  width: 45%;
   height: 100%;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.5;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid 0.1rem #000000;
-  box-sizing: border-box;
-  background-color: #000000;
-  border-radius: 1.5rem;
-  flex-shrink: 0;
-}
-
-.register-fR3 .auto-group-whgm-bpV .auto-group-5e1o-FLd .already-have-an-account-rLR {
-  max-width: 20.3rem;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.2rem;
-  text-decoration-line: underline;
-  color: #0c2fdf;
-  font-family: Poppins, 'Source Sans Pro';
-  flex-shrink: 0;
-}
-
-.register-fR3 .frame-1-LWV {
-  box-sizing: border-box;
-  padding: 16.4rem 3rem 18.8rem 2.45rem;
-  width: 61.9rem;
-  height: 122.2rem;
-  overflow: hidden;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(242, 163, 11, 0.9));
   position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(1.26deg, #f2a30b 24.22%, #ffffff 80.58%);
-  flex-shrink: 0;
-}
-
-.register-fR3 .frame-1-LWV .welcome-qy3 {
-  margin: 0rem 13.85rem 3.2rem 0rem;
-  text-align: center;
-  font-size: 7rem;
+  font-family: 'Poppins';
+  font-size: 43px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.7rem;
-  color: rgba(0, 0, 0, 0.6999999881);
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
+  line-height: normal;
+  text-align: center;
+  justify-content: center;
 }
 
-.register-fR3 .frame-1-LWV .minato-1-xGy {
-  margin-left: 6.75rem;
-  width: 49.7rem;
-  height: 73.3rem;
-  object-fit: cover;
-  vertical-align: top;
-  flex-shrink: 0;
+.img-container h1 {
+  margin: 75px 0 0 0;
+}
+
+.img-container img {
+  position: relative;
+  top: 20px;
+  width: 400px;
+}
+
+.content-container {
+  width: 55%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/backgroundnaruto.png');
+  background-size: cover;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.content-container h1 {
+  margin: 25px 0 0 0;
+  font-size: 75px;
+}
+
+.content-container p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.input {
+  width: 454px;
+  height: 85px;
+  border-radius: 10px;
+  background-color: #000000;
+  padding: 0 0 0 20px;
+}
+
+::placeholder, .input {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.button-submit {
+  background-color: #f2a30b;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 65px;
+  width: 153px;
+  position: relative;
+  right: 160px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.button-submit .text-wrapper {
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.button-submit:hover {
+  background-color: #f7c057;
+}
+
+.button-submit:active {
+  border: 6px solid;
+}
+
+.select-area {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 470px;
+  height: 60px;
+  text-align: left;
+}
+
+.select-area label {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-select {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  height: 60px;
+  overflow: auto;
+}
+
+.custom-select::after {
+  --size: 24px;
+  content: "";
+  position: absolute;
+  right: 16px;
+  pointer-events: none;
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid white;
+  top: 25%;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  padding: 0 0 0 40px;
+  background-color: #000000;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
 }
