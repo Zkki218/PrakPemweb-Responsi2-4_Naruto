@@ -3,6 +3,39 @@ include "koneksi.php";
 session_start();
 ?>
 
+<?php
+if (isset($_POST['submit-login'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    $sql = "SELECT * FROM user WHERE username='$username'";
+    $result = mysqli_query($koneksi, $sql);
+
+    if ($result->num_rows > 0) {
+        $row = mysqli_fetch_assoc($result);
+
+        if (password_verify($password, $row["password"])) {
+            $_SESSION['id'] = $row['id_user'];
+            $_SESSION['level'] = $row['level'];
+            header("Location: home.php");
+        } else {
+            $_SESSION['error_message'] = 'Password Salah';
+            header("Location: login.php");
+            exit();
+        }
+    } else {
+        $_SESSION['error_message'] = 'Username & Password Salah';
+        header("Location: login.php");
+        exit();
+    }
+}
+
+if (isset($_SESSION['error_message'])) {
+    echo "<script>alert('{$_SESSION['error_message']}');</script>";
+    unset($_SESSION['error_message']);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,50 +47,7 @@ session_start();
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="styles/login.css">
 </head>
-<body>
-
-    <?php if (isset($_SESSION['login']) && isset($_SESSION['user'])) : ?>
-		<script>window.location='link hosting website'</script>
-	<?php endif ?> 
-
-	<?php 
-		if (isset($_POST['login'])) {
-			$username = $_POST['username'];
-			$password = $_POST['password'];
-
-			$data = mysqli_query($koneksi,"SELECT * FROM user WHERE username = '$username'");
-
-			if (mysqli_num_rows($data) > 0) {
-				$hasil = mysqli_fetch_assoc($data);
-
-				if($hasil['level']=="Admin"){
-					$_SESSION['username'] = $username;
-					$_SESSION['level'] = "Admin";
-				  
-				   }else if($hasil['level']=="Pengunjung"){
-					$_SESSION['username'] = $username;
-					$_SESSION['level'] = "Pengunjung";
-				   }
-
-					if ($hasil['password']) {
-						$_SESSION['user'] = $username;
-						$_SESSION['login'] = true; ?>
-						<script>window.location="link hosting website";</script>
-						
-				<?php 
-				}else { ?>
-					<a href='login.php'></a>
-					<p>Password Salah!</p>
-				<?php 
-				}
-			}else { ?>
-					<a href='login.php')></a>
-					<p>Username & password salah!</p>
-			<?php 
-			}
-		}
-	?>
-    
+<body>    
     <div class="main-container">
         <div class="img-container">
             <h1>Welcome Back!</h1>
@@ -66,7 +56,7 @@ session_start();
         <div class="content-container">
             <h1>Login</h1>
             <p>Please enter your username and password!</p>
-            <form method="post" name="form-login">
+            <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST" name="form-login">
                 <input class="input" type="text" name="username" placeholder="Username" required><br><br>
                 <input class="input" type="password" name="password" placeholder="Password" required><br><br>
                 <button class="button-submit" type="submit" name="submit-login"><p class="text-wrapper">Login</p></button>
