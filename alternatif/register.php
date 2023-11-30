@@ -2,28 +2,36 @@
 include "koneksi.php";
 session_start();
 
-if (isset($_POST['submit-register'])) {
-    $username = mysqli_real_escape_string($koneksi, $_POST['username']);
-    $password = mysqli_real_escape_string($koneksi, $_POST['password']);
-    $character = mysqli_real_escape_string($koneksi, $_POST['pilih']);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username  = $_POST['username'];
+    $password  = $_POST['password'];
+    $character = $_POST['pilih'];
 
-    if (empty($username) || empty($password) || empty($character) || $character == 'default') {
-        echo '<p>Semua kolom harus diisi dan karakter harus dipilih.</p>';
+    $check_char_query = "SELECT * FROM chara WHERE id_chara = '$character'";
+    $char_result = $koneksi->query($check_char_query);
+
+    if ($char_result->num_rows === 0) {
+        $_SESSION['error_message'] = 'Karakter yang dipilih tidak ada. Silakan pilih karakter yang valid.';
+        header("Location: register.php");
+        exit();
     } else {
-        $check_username = mysqli_query($koneksi, "SELECT * FROM user WHERE username = '$username'");
-        if (mysqli_num_rows($check_username) > 0) {
-            echo '<p>Username sudah digunakan. Silakan pilih yang lain.</p>';
-        } else {
-            $insert_user = mysqli_query($koneksi, "INSERT INTO user (username, password, level, character) VALUES ('$username', '$password', 'Pengunjung', '$character')");
+        $hash_password = password_hash($password, PASSWORD_DEFAULT);
+        $insert_query = "INSERT INTO user (username, password, level, id_chara) VALUES ('$username', '$hash_password', 'Pengunjung', '$character')";
 
-            if ($insert_user) {
-                echo '<p>Register berhasil.</p>';
-            } else {
-                echo '<p>Terjadi kesalahan selama Register. Silakan coba lagi!</p>';
-            }
+        if ($koneksi->query($insert_query) === TRUE) {
+            header("Location: login.php");
+        } else {
+            echo "Error: " . $insert_query . "<br>" . $koneksi->error;
         }
     }
 }
+
+if (isset($_SESSION['error_message'])) {
+    echo "<script>alert('{$_SESSION['error_message']}');</script>";
+    unset($_SESSION['error_message']);
+}
+
+$koneksi->close();
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +50,7 @@ if (isset($_POST['submit-register'])) {
         <div class="content-container">
             <h1>Register</h1>
             <p>Please enter your username and password!</p>
-            <form method="post" name="form-register">
+            <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" name="form-register">
                 <input class="input" type="text" name="username" placeholder="Username" required><br><br>
                 <input class="input" type="password" name="password" placeholder="Password" required><br><br>
                 <div class="select-area">
@@ -50,16 +58,16 @@ if (isset($_POST['submit-register'])) {
                     <div class="custom-select">
                         <select name="pilih">
                             <option value="default" selected>------------</option>
-                            <option value="naruto">Naruto</option>
-                            <option value="sasuke">Sasuke</option>
-                            <option value="kakashi">Kakashi</option>
-                            <option value="itachi">Itachi</option>
-                            <option value="obito">Obito</option>
-                            <option value="madara">Madara</option>
-                            <option value="hashirama">Hashirama</option>
-                            <option value="tobirama">Tobirama</option>
-                            <option value="hiruzen">Hiruzen</option>
-                            <option value="minato">Minato</option>
+                            <option value="1">Naruto</option>
+                            <option value="2">Sasuke</option>
+                            <option value="3">Kakashi</option>
+                            <option value="4">Itachi</option>
+                            <option value="5">Obito</option>
+                            <option value="6">Madara</option>
+                            <option value="7">Hashirama</option>
+                            <option value="8">Tobirama</option>
+                            <option value="9">Hiruzen</option>
+                            <option value="10">Minato</option>
                         </select>
                     </div>
                 </div>
