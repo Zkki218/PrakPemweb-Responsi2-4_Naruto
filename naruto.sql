@@ -1,5 +1,12 @@
 -- Database naruto.sql
 
+-- Tabel chara
+CREATE TABLE chara (
+    id_chara INT AUTO_INCREMENT PRIMARY KEY, 
+    nama VARCHAR(255),
+    gambar TEXT
+);
+
 -- Tabel user
 CREATE TABLE user (
     id_user INT AUTO_INCREMENT PRIMARY KEY, 
@@ -8,13 +15,6 @@ CREATE TABLE user (
     level VARCHAR(20),
     id_chara INT,
     FOREIGN KEY (id_chara) REFERENCES chara(id_chara)
-);
-
--- Tabel chara
-CREATE TABLE chara (
-    id_chara INT AUTO_INCREMENT PRIMARY KEY, 
-    nama VARCHAR(255),
-    gambar TEXT
 );
 
 -- Tabel jutsu
