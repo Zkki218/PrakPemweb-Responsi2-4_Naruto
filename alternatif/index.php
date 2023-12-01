@@ -1,3 +1,15 @@
+<?php
+include "koneksi.php";
+session_start();
+?>
+
+<?php 
+if ($_SESSION['level'] != "Admin" &&  $_SESSION['level'] != "Pengunjung") { 
+  header("Location: landing-page.php");
+  exit(); 
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +25,7 @@
   <div class="main-container">
     <div class="sub-container-1">
       <div class="navbar">
-        <p>Narutoapaini</p>
+        <p>Naruto</p>
         <div class="navbar-right">
           <a href="index.php">Home</a>
           <a href="character.php">Character</a>
