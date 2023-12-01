@@ -1,0 +1,141 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(242, 163, 11, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/backgroundnaruto.png');
+  background-size: cover;
+  background-repeat: repeat;
+  overflow: auto;
+  margin: 0;
+  display: flex;
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+}
+
+.sub-container-1 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  width: 250px;
+  height: 420px;
+  position: fixed;
+  left: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 0 90px 90px 0;
+  background: #000000;
+}
+
+nav {
+  margin-left: 15%;
+  width: 150px;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  margin: 15px 0 15px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+nav a:nth-child(4) {
+  background-color: rgb(62, 62, 62);
+}
+
+nav a:hover {
+  background-color: #6f6f6f;
+}
+
+.sub-container-2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.content-container h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.profile-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+
+.img-container {
+  width: 250px;
+  height: 250px;
+}
+
+.img-container img {
+  width: 250px;
+}
+
+.info-container {
+  width: 90%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.info-subcontainer {
+  width: 90%;
+  height: 225px;
+}
+
+.info-subcontainer p {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+  background: #F2A30B;
+  border: 3px solid black;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info-subcontainer button {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.info-subcontainer .btn-delete {
+  padding: 20px 10px 20px 10px;
+  border: 3px solid white;
+  background: #000000;
+  color: #ffffff;
+}
+
+.info-subcontainer .btn-logout {
+  padding: 20px;
+  border: 3px solid black;
+  background: #F2A30B;
+  color: #000000;
+}

@@ -1,0 +1,775 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 136.6rem;
+}.home-3Ah {
+  box-sizing: border-box;
+  padding-bottom: 134.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(243.18deg, #f2a30b -0%, #ffffff 100%);
+}
+.home-3Ah .auto-group-emkw-DzH {
+  box-sizing: border-box;
+  padding: 3.7rem 9rem 9.3rem 12.75rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf {
+  margin: 0rem 0rem 7rem 3.65rem;
+  width: calc(100% - 3.65rem);
+  height: 5.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .auto-group-zjuy-aVP {
+  box-sizing: border-box;
+  padding: 0.4rem 8.9rem 0.4rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .auto-group-zjuy-aVP .narutoapaini-Tp5 {
+  margin-right: 36.9rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .auto-group-zjuy-aVP .group-11-iED {
+  margin: 0.3rem 0;
+  height: calc(100% - 0.6rem);
+  display: flex;
+  column-gap: 4.6rem;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .auto-group-zjuy-aVP .group-11-iED .home-zxR {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .auto-group-zjuy-aVP .group-11-iED .character-7p5 {
+  margin-bottom: 0.1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .auto-group-zjuy-aVP .group-11-iED .jutsu-bUM {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .group-10-sgm {
+  width: 8.1rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .group-10-sgm .rectangle-5-NdX {
+  width: 8.1rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+  background-color: #000000;
+  border-radius: 5rem;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .group-10-sgm .down-arrow-1-TQ5 {
+  width: 4.5rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .auto-group-emkw-DzH .auto-group-he9x-jjf .group-10-sgm .group-9-LcH {
+  width: 3.7555rem;
+  height: 3.74rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-1.png');
+}
+.home-3Ah .auto-group-emkw-DzH .group-3-T4d {
+  margin: 0rem 74.65rem 1.9rem 0rem;
+  width: 32.9rem;
+  height: 6.1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #ffffff;
+  box-sizing: border-box;
+  background-color: #000000;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .frame2-xvV {
+  margin: 0rem 41.5rem 5rem 45.05rem;
+  box-sizing: border-box;
+  padding-left: 0.1rem;
+  width: calc(100% - 86.55rem);
+  height: 36.9rem;
+  background-color: #000000;
+  border-radius: 35rem;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .frame2-xvV .frame1-4id {
+  box-sizing: border-box;
+  padding-top: 3.8rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 35rem 35rem;
+}
+.home-3Ah .auto-group-emkw-DzH .frame2-xvV .frame1-4id .naruto2-1-QGh {
+  width: 28.1rem;
+  height: 33.1rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .auto-group-emkw-DzH .frame-3-Jss {
+  margin: 0rem 35.8rem 3.3rem 36.85rem;
+  width: calc(100% - 72.65rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .frame-3-Jss .naruto-uzumaki-EWd {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .frame-3-Jss .uzumaki-naruto-Ncq {
+  margin-left: 2.3rem;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-emkw-DzH .adalah-shinobi-dari-konohagakure-dia-menjadi-jinchriki-dari-ekor-sembilan-pada-hari-kelahirannya-sebuah-nasib-yang-menyebabkan-dia-dijauhi-oleh-sebagian-besar-penduduk-konoha-sepanjang-masa-kecilnya-setelah-bergabung-dengan-tim-kakashi-naruto-bekerja-keras-untuk-mendapatkan-pengakuan-desa-sambil-mengejar-mimpinya-untuk-menjadi-hokage-pada-tahun-tahun-berikutnya-melalui-banyak-kesulitan-dan-cobaan-berat-ia-menjadi-ninja-yang-cakap-yang-dianggap-sebagai-pahlawan-baik-oleh-penduduk-desa-dan-segera-setelah-itu-seluruh-dunia-sehingga-dikenal-sebagai-pahlawan-dari-konoha-konohagakure-no-eiy-secara-harfiah-berarti-hero-of-the-hidden-tree-leaves-dia-segera-terbukti-menjadi-salah-satu-faktor-utama-dalam-memenangkan-perang-dunia-shinobi-keempat-yang-membawanya-mencapai-mimpinya-dan-menjadi-hokage-ketujuh-nanadaime-hokage-secara-harfiah-berarti-bayangan-api-ketujuh-5GM {
+  margin-right: 3.55rem;
+  max-width: 111.3rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs {
+  width: 100%;
+  height: 344.4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .rectangle-15-4g1 {
+  width: 136.6rem;
+  height: 56.6rem;
+  position: absolute;
+  left: 0;
+  top: 168.3rem;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 {
+  width: 136.6rem;
+  height: 344.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  box-shadow: 1rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #000000 -16.35%, #000000 115.18%);
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .rectangle-13-uAq {
+  width: 136.6rem;
+  height: 59.5rem;
+  position: absolute;
+  left: 0;
+  top: 29.8rem;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .backgroundnaruto-4-3Xw {
+  opacity: 0.2;
+  width: 136.3rem;
+  height: 91.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .group-20-A6m {
+  width: 34.2rem;
+  height: 23.6rem;
+  position: absolute;
+  left: 51.9rem;
+  top: 5.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .group-20-A6m .jutsu-HSH {
+  margin-bottom: 4.1rem;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .group-20-A6m .item--PVK {
+  margin-right: 2.1348rem;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 2.1rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-14-J6V {
+  box-sizing: border-box;
+  padding: 8.4rem 35.6rem 3.6rem 37.6rem;
+  width: 136.3rem;
+  height: 51.9rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 37.4rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-14-J6V .coverrasengan-1-Bg5 {
+  margin: 0rem 2rem 4.4rem 0rem;
+  width: 43.9rem;
+  height: 26.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-14-J6V .frame-22-6o3 {
+  box-sizing: border-box;
+  padding: 2.6rem 20.55rem 2.6rem 4.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-14-J6V .frame-22-6o3 .handsign-Dsf {
+  margin-right: 0.45rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-14-J6V .frame-22-6o3 .item--wYm {
+  margin-right: 14.6rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-14-J6V .frame-22-6o3 .item--4NV {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-16-mGu {
+  width: 47.5rem;
+  height: 10rem;
+  position: absolute;
+  left: 44.4rem;
+  top: 32.4rem;
+  overflow: hidden;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2a30b;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .backgroundnaruto-7-rJM {
+  opacity: 0.2;
+  width: 136.6rem;
+  height: 110.8rem;
+  position: absolute;
+  left: 1rem;
+  top: 91.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .rectangle-14-ZiZ {
+  width: 136.3rem;
+  height: 56.5rem;
+  position: absolute;
+  left: 0;
+  top: 102rem;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-23-uGd {
+  box-sizing: border-box;
+  padding: 0rem 5.2rem 0rem 7.4rem;
+  width: 85rem;
+  height: 14rem;
+  position: absolute;
+  left: 28.8rem;
+  top: 94.3rem;
+  overflow: hidden;
+  background-color: #f2a30b;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-23-uGd .taju-kage-bunshin-no-jutsu-1qT {
+  max-width: 72.4rem;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-24-Xoo {
+  box-sizing: border-box;
+  padding: 2.6rem 12.15rem 2.6rem 4.2rem;
+  width: 63.1rem;
+  height: 9rem;
+  position: absolute;
+  left: 37.9rem;
+  top: 144.1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-24-Xoo .handsign-dM3 {
+  margin-right: 0.45rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-24-Xoo .item--ZEh {
+  margin-right: 14.1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-24-Xoo .clone-t25 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .backgroundnaruto-8-CoT {
+  opacity: 0.2;
+  width: 136.3rem;
+  height: 52.5rem;
+  position: absolute;
+  left: 0;
+  top: 202.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .rectangle-16-8x1 {
+  width: 137.8rem;
+  height: 60.1rem;
+  position: absolute;
+  left: 0;
+  top: 168.7rem;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-18-gTj {
+  box-sizing: border-box;
+  padding: 0rem 8rem 0rem 11.2rem;
+  width: 75rem;
+  height: 15rem;
+  position: absolute;
+  left: 29.9rem;
+  top: 161.2rem;
+  overflow: hidden;
+  background-color: #f2a30b;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-18-gTj .kuchiyose-no-jutsu-Psw {
+  max-width: 55.8rem;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .coverkuchiyose-1-WSm {
+  width: 45.5rem;
+  height: 25.6rem;
+  position: absolute;
+  left: 46.5rem;
+  top: 179.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-25-dnH {
+  box-sizing: border-box;
+  padding: 0rem 5.65rem 1.5rem 5.55rem;
+  width: 64.6rem;
+  height: 14.1rem;
+  position: absolute;
+  left: 39rem;
+  top: 210.5rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-25-dnH .handsign--Lwb {
+  margin-bottom: 1.3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-25-dnH .boar-dog-bird-monkey-ram-sgd {
+  max-width: 53.4rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.75rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w {
+  box-sizing: border-box;
+  padding: 0rem 6.45rem 8.5rem 6.5rem;
+  width: 136.6rem;
+  height: 104.3rem;
+  position: absolute;
+  left: 0;
+  top: 228.8rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF {
+  margin-bottom: 7.4804rem;
+  width: 100%;
+  height: 43.7196rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-14-nSD {
+  width: 45.2rem;
+  height: 24rem;
+  position: absolute;
+  left: 43.3rem;
+  top: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-14-nSD .try-X8u {
+  width: 26.9rem;
+  height: 12rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 4rem;
+  color: #f2a30b;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-14-nSD .your-cw3 {
+  width: 18.4rem;
+  height: 9rem;
+  position: absolute;
+  left: 24.3rem;
+  top: 6rem;
+  font-size: 6rem;
+  line-height: 1.5;
+  letter-spacing: 0.6rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-14-nSD .jutsu-jVs {
+  width: 45.2rem;
+  height: 12rem;
+  position: absolute;
+  left: 0;
+  top: 12rem;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 4rem;
+  color: #f2a30b;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-14-nSD .line-2-FDK {
+  width: 22.9rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 12rem;
+  background-color: #ffffff;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-31-Bcm {
+  width: 123.65rem;
+  height: 22.9196rem;
+  position: absolute;
+  left: 0;
+  top: 20.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-31-Bcm .group-30-ich {
+  margin: 0rem 7.359rem 0.431rem 0rem;
+  width: 21.041rem;
+  height: 22.489rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-31-Bcm .group-28-3Q5 {
+  margin: 2.6rem 7.556rem 0rem 0rem;
+  width: 24.3439rem;
+  height: 20.3196rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-31-Bcm .group-27-AUh {
+  margin: 2.28rem 7.361rem 0rem 0rem;
+  width: 27.3388rem;
+  height: 20.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-mxuy-SdF .group-31-Bcm .group-26-6NM {
+  margin-top: 2.5118rem;
+  width: 28.65rem;
+  height: 11.4314rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-bqbs-Dxm {
+  margin: 0rem 35.025rem 13.338rem 26.8rem;
+  width: calc(100% - 61.8251rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-bqbs-Dxm .group-33-9bX {
+  margin: 0rem 4.723rem 0.426rem 0rem;
+  width: 30.8769rem;
+  height: 14.7363rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .auto-group-bqbs-Dxm .group-34-Gw3 {
+  width: 26.2249rem;
+  height: 21.0622rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .group-32-RJ9 {
+  margin: 0rem 45.95rem 0rem 48.9rem;
+  box-sizing: border-box;
+  padding: 2.2rem 6.2rem 2rem 6.8rem;
+  width: calc(100% - 94.85rem);
+  height: 10.2rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-12-bg.png');
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .group-32-RJ9 .group-16-KeR {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .group-32-RJ9 .group-16-KeR .frame-10-HbF {
+  width: 15.2rem;
+  height: 5.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .frame-9-A9w .group-32-RJ9 .group-16-KeR .try-dv1 {
+  width: 13.5rem;
+  height: 6rem;
+  position: absolute;
+  left: 2.3rem;
+  top: 0;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 2rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-3Ah .auto-group-hgkk-YBs .frame-8-nM7 .covertajuukagebunshin-1-7KP {
+  width: 45.6rem;
+  height: 25.7rem;
+  position: absolute;
+  left: 46.3rem;
+  top: 112.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-3Ah .frame-26-m93 {
+  box-sizing: border-box;
+  padding: 1.6rem 30.6rem 1.6rem 30.5rem;
+  width: 100%;
+  height: 76.8rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/backgroundnaruto-9-bg.png');
+  flex-shrink: 0;
+}
+.home-3Ah .frame-26-m93 .group-32-tjT {
+  margin-bottom: 44.3rem;
+  width: 100%;
+  height: 29.3rem;
+  border-radius: 2.5rem;
+}
+.home-3Ah .frame-26-m93 .group-32-tjT .rectangle-12-F4D {
+  width: 75.5rem;
+  height: 29.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2.5rem;
+}

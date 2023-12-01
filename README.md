@@ -100,6 +100,6 @@
 
 ## Images
     * Character's Face_images -> for chara list pages
-    * Character's Full_images -> for chara description and index pages
+    * Character's Circle_images -> for chara description and index pages
     * Character's Profile_images -> for user profile pages
     * Jutsu's Cover_images -> for jutsu list and description pages
