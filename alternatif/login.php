@@ -17,7 +17,8 @@ if (isset($_POST['submit-login'])) {
         if (password_verify($password, $row["password"])) {
             $_SESSION['id'] = $row['id_user'];
             $_SESSION['level'] = $row['level'];
-            header("Location: home.php");
+            $_SESSION['id_chara'] = $row['id_chara'];
+            header("Location: index.php?name=$_SESSION[id_chara]");
         } else {
             $_SESSION['error_message'] = 'Password Salah';
             header("Location: login.php");
