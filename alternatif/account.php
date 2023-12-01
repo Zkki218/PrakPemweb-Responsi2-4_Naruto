@@ -1,3 +1,21 @@
+<?php
+include "koneksi.php";
+session_start();
+
+if (isset($_POST['delete_account'])) {
+
+    $id = $_SESSION['id'];
+    $sql = "delete from user where id_user='$id'";
+    $query = mysqli_query($koneksi,$sql);
+    header("Location: landing-page.php");
+    exit();
+}
+
+if (isset($_POST['logout'])) {
+    header("Location: logout.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +32,7 @@
     <div class="sub-container-1">
       <div class="nav-container">
         <nav>
-          <a href="index.php?name=Naruto">Home</a>
+          <a href="index.php?name=<?php $_SESSION['id_chara'];?>">Home</a>
           <a href="character.php">Character</a>
           <a href="jutsu.php">Jutsu</a>
           <a href="account.php">Account</a>
@@ -31,10 +49,11 @@
           <div class="info-container">
             <div class="info-subcontainer">
               <p>naruto uzumaki</p><br>
-              <button type="submit" class="btn-delete">
+             <form method="post" action="account.php">
+              <button type="submit" class="btn-delete" name="delete_account">
                 Delete Account
               </button>
-              <button type="submit" class="btn-logout">
+              <button type="submit" class="btn-logout" name="logout">
                 Logout
               </button>
             </div>
