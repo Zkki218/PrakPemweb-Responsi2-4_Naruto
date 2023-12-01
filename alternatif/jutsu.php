@@ -1,3 +1,8 @@
+<?php
+include "koneksi.php";
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +19,7 @@
         <div class="sub-container-1">
             <div class="nav-container">
                 <nav>
-                    <a href="index.php?name=Naruto">Home</a>
+                    <a href="index.php?name=<?php $_SESSION['id_chara'];?>">Home</a>
                     <a href="character.php">Character</a>
                     <a href="jutsu.php">Jutsu</a>
                     <a href="account.php">Account</a>
