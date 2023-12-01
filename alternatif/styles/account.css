@@ -1,119 +1,141 @@
-
-html {
-	font-size:62.5%;
-}
-* {
-	margin: 0;
-	padding: 0;
-}
-ul, li {
-	list-style: none;
-}
-input {
-	border: none;
-}
-body {
-  width: 136.6rem;
-}.account-qcu {
-  box-sizing: border-box;
-  padding: 12.9rem 47.5rem 0rem 0rem;
+html, body {
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  background: radial-gradient(71.48% 71.48% at 50% 50%, #f2a30b 0%, #ffffff 100%);
-}
-.account-qcu .frame-19-xhX {
-  margin-right: 9.2rem;
-  box-sizing: border-box;
-  padding: 10.3rem 4.8rem 27.5rem 21.4rem;
-  width: 46.2rem;
-  height: 84.5rem;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background-color: #000000;
-  border-radius: 9rem;
-  flex-shrink: 0;
-}
-.account-qcu .frame-19-xhX .home-qmK {
-  margin: 0rem 0rem 5.7rem 0.5rem;
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.account-qcu .frame-19-xhX .character-jrh {
-  margin: 0rem 0rem 5.7rem 0.5rem;
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.account-qcu .frame-19-xhX .jutsu-T21 {
-  margin-bottom: 11.6rem;
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.account-qcu .frame-19-xhX .frame-20-n4H {
-  width: 100%;
-  height: 12.3rem;
-  overflow: hidden;
-  position: relative;
-  background-color: #ffffff;
-  border-radius: 4rem;
-  flex-shrink: 0;
-}
-.account-qcu .auto-group-mfym-tt1 {
-  margin-bottom: 25.1rem;
-  width: 51rem;
-  flex-shrink: 0;
-}
-.account-qcu .auto-group-mfym-tt1 .your-account-dqb {
-  margin-bottom: 2.8rem;
-  font-size: 5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #000000;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-}
-.account-qcu .auto-group-mfym-tt1 .auto-group-xdzs-A4q {
-  width: 100%;
-  height: 22.7rem;
-  display: flex;
-  align-items: flex-start;
-}
-.account-qcu .auto-group-mfym-tt1 .auto-group-xdzs-A4q .frame-21-JRw {
-  margin-right: 5.6rem;
-  width: 23.6rem;
   height: 100%;
-  overflow: hidden;
-  position: relative;
-  background-color: #ffffff;
-  border-radius: 4rem;
-  flex-shrink: 0;
+  margin: 0;
 }
-.account-qcu .auto-group-mfym-tt1 .auto-group-xdzs-A4q .chrismart1n-EKb {
-  font-size: 3rem;
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(242, 163, 11, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/backgroundnaruto.png');
+  background-size: cover;
+  background-repeat: repeat;
+  overflow: auto;
+  margin: 0;
+  display: flex;
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+}
+
+.sub-container-1 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  width: 250px;
+  height: 420px;
+  position: fixed;
+  left: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 0 90px 90px 0;
+  background: #000000;
+}
+
+nav {
+  margin-left: 15%;
+  width: 150px;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  margin: 15px 0 15px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+nav a:nth-child(4) {
+  background-color: rgb(62, 62, 62);
+}
+
+nav a:hover {
+  background-color: #6f6f6f;
+}
+
+.sub-container-2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.content-container h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.profile-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+
+.img-container {
+  width: 250px;
+  height: 250px;
+}
+
+.img-container img {
+  width: 250px;
+}
+
+.info-container {
+  width: 90%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.info-subcontainer {
+  width: 90%;
+  height: 225px;
+}
+
+.info-subcontainer p {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+  background: #F2A30B;
+  border: 3px solid black;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 1.5;
+}
+
+.info-subcontainer button {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.info-subcontainer .btn-delete {
+  padding: 20px 10px 20px 10px;
+  border: 3px solid white;
+  background: #000000;
+  color: #ffffff;
+}
+
+.info-subcontainer .btn-logout {
+  padding: 20px;
+  border: 3px solid black;
+  background: #F2A30B;
   color: #000000;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
 }
