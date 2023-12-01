@@ -1,0 +1,153 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  width: auto;
+  height: 100%;
+  display: flex;
+}
+
+.img-container {
+  width: 45%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(242, 163, 11, 0.9));
+  position: relative;
+  font-family: 'Poppins';
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  justify-content: center;
+}
+
+.img-container h1 {
+  margin: 75px 0 0 0;
+}
+
+.img-container img {
+  position: relative;
+  top: 20px;
+  width: 400px;
+}
+
+.content-container {
+  width: 55%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/backgroundnaruto.png');
+  background-size: cover;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.content-container h1 {
+  margin: 25px 0 0 0;
+  font-size: 75px;
+}
+
+.content-container p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.input {
+  width: 454px;
+  height: 85px;
+  border-radius: 10px;
+  background-color: #000000;
+  padding: 0 0 0 20px;
+}
+
+::placeholder, .input {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.button-submit {
+  background-color: #f2a30b;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 65px;
+  width: 153px;
+  position: relative;
+  right: 160px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.button-submit .text-wrapper {
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.button-submit:hover {
+  background-color: #f7c057;
+}
+
+.button-submit:active {
+  border: 6px solid;
+}
+
+.select-area {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 470px;
+  height: 60px;
+  text-align: left;
+}
+
+.select-area label {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-select {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  height: 60px;
+  overflow: auto;
+}
+
+.custom-select::after {
+  --size: 24px;
+  content: "";
+  position: absolute;
+  right: 16px;
+  pointer-events: none;
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid white;
+  top: 25%;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  padding: 0 0 0 40px;
+  background-color: #000000;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}

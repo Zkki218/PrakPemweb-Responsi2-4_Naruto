@@ -1,0 +1,106 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  width: auto;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(242, 163, 11, 0.9)), url('../assets/backgroundnaruto.png');
+  background-size: cover;
+  display: flex;
+}
+
+.content-container {
+  width: 35%;
+  padding: 50px 0px 0px 100px;
+  position: relative;
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content-subcontainer {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+
+.content-subcontainer h1 {
+  font-size: 70px;
+}
+
+.content-subcontainer h2 {
+  font-size: 30px;
+}
+
+.frame-button-register {
+  background-color: #000000;
+  border: 3px solid;
+  border-color: #f2a30b;
+  border-radius: 20px;
+  height: 65px;
+  overflow: hidden;
+  position: absolute;
+  width: 153px;
+  left: 0px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.frame-button-register:hover {
+  background-color: #363636;
+}
+
+.frame-button-register .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.frame-button-login {
+  background-color: #f2a30b;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 65px;
+  overflow: hidden;
+  position: absolute;
+  width: 153px;
+  right: 0px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.frame-button-login:hover {
+  background-color: #f7c057;
+}
+
+.frame-button-login .text-wrapper {
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.frame-button-register:active, .frame-button-login:active {
+  border: 6px solid;
+}
+
+.img-container {
+  justify-content: center;
+}
+
+.img-container img {
+  position: relative;
+  top: 11px;
+  width: 860px;
+}
